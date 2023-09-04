@@ -43,3 +43,11 @@ my_number = 5
 my_number = my_number + 1
 
 print(my_number)
+
+#Use the f-string function (also called “formatted string literals”)
+
+
+print(f"Hello, {name.lower()}. You are {my_age}.")
+
+name = "Frank"
+print("Hello, {}. You are {}.".format(name, my_age))
